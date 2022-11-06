@@ -105,7 +105,7 @@ const Story: FC = () => {
                 <h4>New York, NY</h4>
                 <p>
                     Know what an <JToolTip text={"Auction Rate Security"} /> is? 
-                    Many don\'t. 
+                    Many {"don't"}. 
 
                     In 2008, auction rate securities (ARS) had a tremendous downfall.
                     
