@@ -204,7 +204,7 @@ const Story: FC = () => {
                 <h3>Bachelor in Finance</h3>
                 <h4>Baruch + Macaulay Honors College</h4>
                 <p>
-                    Undergrad studied Finance and Investments
+                    Undergrad studies in Finance and Investments
                 </p>
             </VerticalTimelineElement>
         </VerticalTimeline>

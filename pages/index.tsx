@@ -46,7 +46,7 @@ export default function Home() {
                     <u>Self-taught</u> in many areas and always curious how things work.
                     <br />
                     <br />Being able to acquire different knowledge shaped myself to be <u>more creative</u> in <b>solving
-                      problems</b> and having the ability to see the big picture and connect the dots.
+                      problems</b> and have the ability to see the big picture to connect the dots.
 
 
                   </Card.Body>
