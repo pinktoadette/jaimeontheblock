@@ -14,7 +14,7 @@ const JToolTip = (props: any) =>  {
 
   useEffect(()=>{
     if (!define) {
-      fetch(`api/word?text=${props.text}`)
+      fetch(`api/word?text=${props.text.toLowerCase()}`)
       .then(data => data.json())
       .then(data => {
         const {definition} = data;
