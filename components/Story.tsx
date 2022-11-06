@@ -157,6 +157,16 @@ const Story: FC = () => {
                     fixed income.
                 </p>
             </VerticalTimelineElement>
+            <VerticalTimelineElement
+                className="vertical-timeline-element--education"
+                iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+            >
+                <h3 >Chartered Financial Analyst</h3>
+                <h4>Completed CFA LevelII</h4>
+                <p>
+                    One of the world's most recognized and competitive financial exams.
+                </p>
+            </VerticalTimelineElement>
 
             <VerticalTimelineElement
                 className="vertical-timeline-element--education"
