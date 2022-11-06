@@ -58,26 +58,33 @@ export default function Home() {
       <div>
         <SectionFade color="primary">
           <Container>
+          <b>With real world impact on the financial industry, with your valuations on the books, and having the technology know-how, I am your go-to person.</b>
+          </Container>
+        </ SectionFade>
+      </div>
+      <div>
+        <SectionFade color="primary">
+          <Container>
             <Row >
               <Col lg={6}>
                 <Card className="jcard">
-                <Card.Body>
-                  <h3 >
-                    Curiosity and Drive.
-                  </h3>
-                  <u>Self-taught</u> in many areas and always curious how things work. 
-                  <br/>
-                  <br/>Being able to acquire different knowledge shaped myself to be <u>more creative</u> in <b>solving
-                    problems</b> and having the ability to see the big picture and connect the dots.
+                  <Card.Body>
+                    <h3 >
+                      Curiosity and Drive.
+                    </h3>
+                    <u>Self-taught</u> in many areas and always curious how things work.
+                    <br />
+                    <br />Being able to acquire different knowledge shaped myself to be <u>more creative</u> in <b>solving
+                      problems</b> and having the ability to see the big picture and connect the dots.
 
-                    
-                </Card.Body>
-                <Card.Footer>
-                  <Alert variant="success">
-                <b> Innovation comes from outside of the box, not a specific specialty</b>
-                </Alert>
-                </Card.Footer>
-                  </Card>
+
+                  </Card.Body>
+                  <Card.Footer>
+                    <Alert variant="success">
+                      <b> Innovation comes from outside of the box, not a specific specialty</b>
+                    </Alert>
+                  </Card.Footer>
+                </Card>
               </Col>
             </Row>
           </Container>
@@ -88,12 +95,12 @@ export default function Home() {
             <Row>
               <Col md={{ offset: 6 }}>
                 <Card className="jcard">
-                <Card.Body>
-                  <h3>Finance <i className="fa-solid fa-arrow-right"></i> Engineering <i className="fa-solid fa-arrow-right"></i> Blockchain. </h3>
-                  I started off my career in finance and ventured into the engineering space.
-                  In 2019, I learned of <JToolTip text={"decentralized finance"} />, I was absolutely excited how <JToolTip text={"DeFi"} /> can change
-                  how our traditional exchange works.
-                </Card.Body>
+                  <Card.Body>
+                    <h3>Finance <i className="fa-solid fa-arrow-right"></i> Engineering <i className="fa-solid fa-arrow-right"></i> Blockchain. </h3>
+                    I started off my career in finance and ventured into the engineering space.
+                    In 2019, I learned of <JToolTip text={"decentralized finance"} />, I was absolutely excited how <JToolTip text={"DeFi"} /> can change
+                    how our traditional exchange works.
+                  </Card.Body>
                 </Card>
               </Col>
             </Row>

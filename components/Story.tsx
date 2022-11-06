@@ -132,13 +132,14 @@ const Story: FC = () => {
                     <b>Know what an <JToolTip text={"Auction Rate Security"} /> is? </b>
                     Many {"don't"}. SEC and FINRA sure do since it was one of the biggest collapse of our time.
                     <br /><br />
-                    In 2008, auction rate securities (ARS) had a tremendous downfall. The ARS market was valued at $200billion.
+                    In 2008, auction rate securities (ARS) had a tremendous downfall. The ARS market was valued at $200billion. 
+                    I worked with Second Market, now NASDAQ Private Exchange, and performed trade data analysis.
                     I built complex financial models using regresson analysis and optimizations, specifically cubic spline modeling.
                     I then automated the entire valuation process because we all know Excel is too slow!
                 </p><hr />
                 <Alert variant="success">
-                    If your company has held ARS and received pricing from Pluris or Interactive Data, there is a good chance that
-                    that number is from this model.
+                    If your company, banks to Fortune 500 companies, has held ARS and received pricing from Pluris or Interactive Data, 
+                    there is a good chance that that valuation is from the model I created.
                 </Alert>
                     
             </VerticalTimelineElement>
@@ -152,7 +153,7 @@ const Story: FC = () => {
                 <h4>New York, NY</h4>
                 <p>
                     Interactive Data, now known as Intercontiental Exchange (ICE).
-                    I discuss with clients are pricing methodologies, whether it be 
+                    I discussed with clients are pricing methodologies, whether it be 
                     <JToolTip text={"MBS"} />, <JToolTip text={"ABS"} />, or <JToolTip text={"ADR"} />.
                 </p><hr />
                 <Alert variant="success">
