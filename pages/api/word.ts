@@ -1,20 +1,24 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
+import { StringLiteral } from 'typescript';
 import prisma from '../../prisma/connection';
 
 type Define = {
+  id: string,
   text: string,
-  defintion: string
+  defintion: string,
+  createdAt: string,
+  updatedAt: string
 }
 
 export default async function handler(
   req: NextApiRequest,
-  res: NextApiResponse<Define>
+  res: NextApiResponse<Define | null>
 ) {
     const { method } = req;    
     await prisma.$connect();
     if (method === "GET") {
         const { text } = req.query;
-        let result;
+        let result: Define | null = null;
         if (text) {
           result = await prisma.dictionary.findFirst({where: {
               text: (text as string).toLowerCase()
