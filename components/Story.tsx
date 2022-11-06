@@ -32,10 +32,10 @@ const Story: FC = () => {
                             for online media and text content.
                         </li>
                         <li>
-                            Tokenized <JToolTip text={"alternative assets"} /> and designed infrastrucutre for production.
+                            Tokenized <JToolTip text={"alternative assets"} /> and designed infrastrucutre, taking into security concerns
                         </li>
                         <li>
-                            Gamified client platform, and created an eclosed network for <JToolTip text={"accredited investors"} />.
+                            Gamified client platform, and created an enclosed network for <JToolTip text={"accredited investors"} />.
                         </li>
                     </ul>
 
