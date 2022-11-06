@@ -27,7 +27,7 @@ const Footer: FC = () => {
                 <Col>
                     This website is designed and created by Jaime Lynn. Find the repo here  &nbsp;
                     <i className="fa-brands fa-github"></i>
-                    <a href="https://github.com/pinktoadette/jaimeontheblock" target="_blank"> GitHub</a>
+                    <a href="https://github.com/pinktoadette/jaimeontheblock" target="_blank" rel="noopener"> GitHub</a>
                     <hr />
                     < p>
                     See my resume on ethereum mainnet as a restricted NFT.
