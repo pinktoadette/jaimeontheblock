@@ -82,7 +82,7 @@ export default function Home() {
         <Story />
         <SectionFade >
         <Container>
-          <h3>Now you scrolled down here</h3>
+          <h3>Now you have scrolled down here</h3>
           Let me show you why a knowledge of finance and engineering is needed. &nbsp;
           <Link href="/learn/tech_finance">Tell me more</Link>
           </Container>

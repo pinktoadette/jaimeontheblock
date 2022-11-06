@@ -30,7 +30,7 @@ export default function DeFi() {
                             I will ask you what infrastrucutre do you have in place, and how can we make it better.
                         </SectionFade>
                         
-                        <p> We all know there are many scammers and bots are out there, how can you reduce your <b>risk</b> of
+                        <p> We all know there are many scammers and bots out there, how can you reduce your <b>risk</b> of
                             such attack as a financial institution? How can you proceed further with tradtional regulations in place?
                             < br /> I have the solution.
                         </p>

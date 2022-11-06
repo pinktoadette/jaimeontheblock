@@ -17,7 +17,7 @@ const Story: FC = () => {
     return (
         <div>
         <Container>
-                <h3>A Story To Tell - Not Just A Resume</h3>
+                <h3>A Story To Tell - Not A Resume Show</h3>
             </Container>
         <VerticalTimeline>
             <VerticalTimelineElement
