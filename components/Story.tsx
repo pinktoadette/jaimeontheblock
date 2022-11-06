@@ -8,7 +8,7 @@ import JToolTip from './utilities/Tooltip';
 const Story: FC = () => {
 
     return (
-        <>
+        <div>
         <Container>
                 <h3>A Story - Not Just A Resume</h3>
             </Container>
@@ -47,26 +47,68 @@ const Story: FC = () => {
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                date="2010 - 2011"
+                date="2018 - 2020"
                 iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                 
             >
-                <h3 >Art Director</h3>
-                <h4>San Francisco, CA</h4>
+                <h3 >Hedge Fund Software Developer</h3>
+                <h4>New York, NY</h4>
                 <p>
-                    Creative Direction, User Experience, Visual Design, SEO, Online Marketing
+                    Fullstack developer at one of the largest hedge fund in the world. 
+                    Having the experiences as an analyst and trader, I know what is needed in the system.
+                </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                date="2018 - present"
+                iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}                
+            >
+                <h3>Crypto Investment</h3>
+                <p>
+                    After the 2017 cryptocurrency crash, I made my first cryptocurrency investment.
+                    <p>Investment 101: Buy low, sell high. </p>
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                date="2008 - 2010"
+                date="2015 - 2018"
                 iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                 
             >
-                <h3 >Web Designer</h3>
-                <h4>Los Angeles, CA</h4>
+                <h3 >Quantitative Analyst + Trader</h3>
+                <h4>New York, NY</h4>
                 <p>
-                    User Experience, Visual Design
+                    Due to my past experiences in building complex financial models, (see below),
+                    my primary function was to extract, translate dataset and perform analysis.
+                    Analysis includes regression analysis, clustering, NLP, and custom models.
+                </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                date="2015 - present"
+                iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}                
+            >
+                <h3>Blockchain Involvement</h3>
+                <p>I was first exposed to blockchain in 2015. I was a consultant for
+                    other companies by attending conferences and organizing blockchain educational materials.
+
+                    <p>
+                        <b>Am I a native crypto?</b> Perhaps.
+                    </p>
+                </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                className="vertical-timeline-element--work"
+                date="2008 - 2011"
+                iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                
+            >
+                <h3>Pluris Valuation Advisors</h3>
+                <h4>New York, NY</h4>
+                <p>
+                    Know what an <JToolTip text={"Auction Rate Security"} /> is? 
+                    Many don\'t. 
+
+                    In 2008, auction rate securities (ARS) had a tremendous downfall.
+                    
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -75,50 +117,50 @@ const Story: FC = () => {
                 iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                 
             >
-                <h3 >Web Designer</h3>
-                <h4>San Francisco, CA</h4>
+                <h3>Interactive Data </h3>
+                <h4>New York, NY</h4>
                 <p>
-                    User Experience, Visual Design
+                    Interactive Data, now known as Intercontiental Exchange (ICE).
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
-                className="vertical-timeline-element--education"
-                date="April 2013"
-                iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+                className="vertical-timeline-element--work"
+                date="2006 - 2008"
+                iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                
             >
-                <h3 >Content Marketing for Web, Mobile and Social Media</h3>
-                <h4>Online Course</h4>
+                <h3>UBS</h3>
+                <h4>Weehawken, NJ</h4>
                 <p>
-                    Strategy, Social Media
+                    Part of the Sales and Trading on the Fixed Income Trading Floor.
+                    I helped out upper management in creating VBA tools for valuaing pricing of
+                    fixed income.
                 </p>
             </VerticalTimelineElement>
+
             <VerticalTimelineElement
                 className="vertical-timeline-element--education"
-                date="November 2012"
                 iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
             >
-                <h3 >Agile Development Scrum Master</h3>
-                <h4>Certification</h4>
+                <h3 >Masters in Financial Engineering</h3>
+                <h4>Masters Degree</h4>
                 <p>
-                    Creative Direction, User Experience, Visual Design
+                    Masters in Financial Engineering
                 </p>
             </VerticalTimelineElement>
+
             <VerticalTimelineElement
                 className="vertical-timeline-element--education"
-                date="2002 - 2006"
                 iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
             >
-                <h3 >Bachelor of Science in Interactive Digital Media Visual Imaging</h3>
+                <h3 >Bachelor in Finance</h3>
                 <h4>Bachelor Degree</h4>
                 <p>
-                    Creative Direction, Visual Design
+                    Undergrad studied Finance and Investments
                 </p>
             </VerticalTimelineElement>
-            <VerticalTimelineElement
-                iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
-            />
         </VerticalTimeline>
-        </>
+        </div>
     );
 }
 
