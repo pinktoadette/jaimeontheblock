@@ -45,7 +45,7 @@ const Story: FC = () => {
                     <p />
                     <small><sup>1</sup>https://www.bnymellon.com/us/en/insights/all-insights/the-rise-of-tokenization.html</small>< hr />
                 <Alert variant="success">
-                DeFi is the intersection of finance and technology. I have both professional experiences. 
+                <b>DeFi is the intersection of finance and technology.</b> I have both professional experiences. 
                 I enjoy solving the big picture solutions and build/provide the solutions.
                 </Alert>
                 </div>

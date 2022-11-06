@@ -64,11 +64,15 @@ export default function Home() {
                   <h3 >
                     Curiosity and Drive.
                   </h3>
-                  I have <u>self-taught</u> in many areas. Because of being able to acquire different knowledge,
+                  I have <u>self-taught</u> in many areas and always curios how things work. 
+                  <br/>
+                  <br/>Being able to acquire different knowledge,
                   it shaped myself to be <u>more creative</u> in <b>solving
                     problems</b> and having the ability to connect the dots.
                 </Card.Body>
-                  
+                <Card.Footer>
+                  Innovation comes from outside of the box.
+                </Card.Footer>
                   </Card>
               </Col>
             </Row>
