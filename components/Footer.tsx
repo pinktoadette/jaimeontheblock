@@ -37,8 +37,6 @@ const Footer: FC = () => {
                     This website is designed and created by Jaime Lynn. Find the repo here  &nbsp;
                     
                     <Button onClick={openInNewTab}><i className="fa-brands fa-github"></i> GitHub</Button>
-                    <hr />
-                    See my resume on ethereum mainnet as a restricted NFT.
                 </Col>
             </Row>
 

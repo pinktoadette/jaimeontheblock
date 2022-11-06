@@ -182,7 +182,7 @@ const Story: FC = () => {
                 <h3 >Chartered Financial Analyst</h3>
                 <h4>Completed CFA LevelII</h4>
                 <p>
-                    The {"world's"} most recognized and competitive financial certification.
+                    The {"world's"} most recognized and competitive financial credentials.
                 </p>
             </VerticalTimelineElement>
 
@@ -190,10 +190,10 @@ const Story: FC = () => {
                 className="vertical-timeline-element--education"
                 iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
             >
-                <h3 >Masters in Financial Engineering</h3>
+                <h3 >Master in Financial Engineering</h3>
                 <h4>Johns Hopkins University</h4>
                 <p>
-                    Masters in Financial Engineering
+                    Master in Financial Engineering
                 </p>
             </VerticalTimelineElement>
 

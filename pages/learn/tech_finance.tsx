@@ -10,7 +10,7 @@ export default function DeFi() {
             <div>
                 <SectionFade color="primary">
                 <Container>
-                <b>Real world impact on the financial industry, with your valuations on the books, and having the technology know-how, &nbsp;
+                <b>Real world impact on the financial industry, my valuations on your books, and having the technology know-how, &nbsp;
                     <u>I am your go-to person</u> 
                     &nbsp; in the world of finance + technology.
                     </b>
@@ -31,7 +31,7 @@ export default function DeFi() {
                         </SectionFade>
                         
                         <p> We all know there are many scammers and bots are out there, how can you reduce your <b>risk</b> of
-                            such attack as an financial institution? How can you proceed further with tradtional regulations in place?
+                            such attack as a financial institution? How can you proceed further with tradtional regulations in place?
                             < br /> I have the solution.
                         </p>
                     </Container>
