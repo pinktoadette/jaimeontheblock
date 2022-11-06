@@ -5,12 +5,12 @@ import Col from 'react-bootstrap/Col'
 import Container from 'react-bootstrap/Container'
 import Story from '@components/Story'
 import SectionFade from '@components/utilities/SectionFade'
-import Button from 'react-bootstrap/Button'
 import ParticlesCard from '@components/utilities/Particles'
 import JToolTip from '@components/utilities/Tooltip'
 import Card from 'react-bootstrap/Card'
 import Alert from 'react-bootstrap/Alert';
 import Link from 'next/link';
+import Jaime from '@components/Jaime'
 
 export default function Home() {
 
@@ -21,41 +21,8 @@ export default function Home() {
         <meta name="description" content="Hire Jaime" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      {/* < Header /> */}
-      <div className="full-center">
-        <ParticlesCard />
-        <Container>
-          <Row >
-            <Col md={{ span: 4, offset: 2 }}>
-              <h2 className="hello-tag">
-                {"Hello, i'm"}
-              </h2>
-              <h1>Jaime Lynn</h1>
-              <span className="text-muted">Pronounce Jay-mee</span>
-              <h2 className="spacing-100">
-                Professional experiences in Blockchain + Finance.
-              </h2>
-              <Button variant="warning">Available for Hire</Button>
-            </Col>
-            <Col>
-              <div className="rounded">
-                <motion.img
-                  src="/headshot1.png"
-                  initial={{ opacity: 0, scale: 0.5 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  transition={{
-                    delay: 0.5,
-                    x: { duration: 1 },
-                    default: { ease: "linear" }
-                  }}
-                />
-              </div>
-            </Col>
-          </Row>
-        </Container>
-        <div className="definition-tag">New to Finance or Blockchain?
-          <br />Hover over <JToolTip text={"highlight"} />to see definitions.</div>
-      </div>
+      <ParticlesCard />
+      <Jaime />
       <div>
         <SectionFade color="primary">
           <Container>
