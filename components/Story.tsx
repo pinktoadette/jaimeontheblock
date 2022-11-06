@@ -91,7 +91,7 @@ const Story: FC = () => {
                     other companies by attending conferences and organizing blockchain educational materials.
 
                     <p>
-                        <b>Am I a native crypto?</b> Perhaps.
+                        <b>Am I a crypto native?</b> Perhaps.
                     </p>
                 </p>
             </VerticalTimelineElement>
@@ -108,8 +108,11 @@ const Story: FC = () => {
                     Many {"don't"}. 
 
                     In 2008, auction rate securities (ARS) had a tremendous downfall.
+                    I built complex financial models using regresson analysis and optimizations, specifically cubic spline modeling.
                     
-                </p>
+                </p><hr />
+                    If your company has held ARS and received pricing from Pluris or Interactive Data, there is a good change,
+                    that number is from this model.
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
@@ -121,6 +124,7 @@ const Story: FC = () => {
                 <h4>New York, NY</h4>
                 <p>
                     Interactive Data, now known as Intercontiental Exchange (ICE).
+                    I discuss with clients are pricing methodologies, whether it be structured finance or ADR.
                 </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement

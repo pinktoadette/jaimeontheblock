@@ -6,8 +6,8 @@ type Define = {
   id: string,
   text: string,
   definition: string,
-  createdAt: string,
-  updatedAt: string
+  createdAt: Date,
+  updatedAt: Date
 }
 
 export default async function handler(
