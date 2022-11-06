@@ -3,8 +3,13 @@ import { FC, useState, useEffect } from 'react'
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
+import Button from 'react-bootstrap/Button';
 
 const Footer: FC = () => {
+    const openInNewTab = () => {
+        const newWindow = window.open("https://github.com/pinktoadette/jaimeontheblock", '_blank', 'noopener,noreferrer')
+        if (newWindow) newWindow.opener = null
+      }
 
     return (
         <div className="footer">
@@ -26,12 +31,10 @@ const Footer: FC = () => {
                 </Col>
                 <Col>
                     This website is designed and created by Jaime Lynn. Find the repo here  &nbsp;
-                    <i className="fa-brands fa-github"></i>
-                    <a href="https://github.com/pinktoadette/jaimeontheblock" target="_blank" rel="noopener"> GitHub</a>
+                    
+                    <Button onClick={openInNewTab}><i className="fa-brands fa-github"></i> GitHub</Button>
                     <hr />
-                    < p>
                     See my resume on ethereum mainnet as a restricted NFT.
-                    </p>
                 </Col>
             </Row>
 
