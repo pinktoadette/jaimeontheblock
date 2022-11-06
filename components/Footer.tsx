@@ -4,6 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
+import Link from 'next/link';
 
 const Footer: FC = () => {
     const openInNewTab = () => {
@@ -22,10 +23,10 @@ const Footer: FC = () => {
                     </h3>
                     <ul>
                         <li>
-                            DeFi
+                            <Link href="/learn/defi">DeFi</Link>
                         </li>
                         <li>
-                            TradFi
+                        <Link href="/learn/tradfi">TradFi</Link>
                         </li>
                     </ul>
                 </Col>

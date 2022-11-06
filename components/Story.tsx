@@ -134,7 +134,7 @@ const Story: FC = () => {
                     <br /><br />
                     In 2008, auction rate securities (ARS) had a tremendous downfall. The ARS market was valued at $200billion. 
                     I worked with Second Market, now NASDAQ Private Exchange, and performed trade data analysis.
-                    I built complex financial models using regresson analysis and optimizations, specifically cubic spline modeling.
+                    I built complex financial models using regression analysis and optimizations, specifically cubic spline modeling.
                     I then automated the entire valuation process because we all know Excel is too slow!
                 </p><hr />
                 <Alert variant="success">
@@ -170,7 +170,7 @@ const Story: FC = () => {
                 <h4>Weehawken, NJ</h4>
                 <p>
                     Part of the Sales and Trading on the Fixed Income Trading Floor.
-                    I helped out upper management in creating VBA tools for valuaing pricing of
+                    I helped out upper management in creating VBA tools for valuing pricing of
                     fixed income.
                 </p>
             </VerticalTimelineElement>

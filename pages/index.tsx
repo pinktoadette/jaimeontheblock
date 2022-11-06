@@ -10,6 +10,7 @@ import ParticlesCard from '@components/utilities/Particles'
 import JToolTip from '@components/utilities/Tooltip'
 import Card from 'react-bootstrap/Card'
 import Alert from 'react-bootstrap/Alert';
+import Link from 'next/link';
 
 export default function Home() {
 
@@ -59,8 +60,8 @@ export default function Home() {
         <SectionFade color="primary">
           <Container>
           <b>Real world impact on the financial industry, with your valuations on the books, and having the technology know-how, &nbsp;
-            <u>I am your go-to person</u>
-            , in the world of finance + technology.
+            <u>I am your go-to person</u> 
+            &nbsp; in the world of finance + technology.
             </b>
           </Container>
         </ SectionFade>
@@ -112,6 +113,13 @@ export default function Home() {
       </div>
       <div>
         <Story />
+        <SectionFade >
+        <Container>
+          <h3>Now you scrolled down here</h3>
+          Let me show you why a knowledge of finance and engineering is needed. &nbsp;
+          <Link href="/learn/tech_finance">Tell me more</Link>
+          </Container>
+        </SectionFade>
       </div>
     </>
   )
