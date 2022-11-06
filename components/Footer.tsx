@@ -26,7 +26,10 @@ const Footer: FC = () => {
                             <Link href="/learn/defi">DeFi</Link>
                         </li>
                         <li>
-                        <Link href="/learn/tradfi">TradFi</Link>
+                            <Link href="/learn/tradfi">TradFi</Link>
+                        </li>
+                        <li>
+                            <Link href="/">Home</Link>
                         </li>
                     </ul>
                 </Col>
