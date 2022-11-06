@@ -58,7 +58,10 @@ export default function Home() {
       <div>
         <SectionFade color="primary">
           <Container>
-          <b>With real world impact on the financial industry, with your valuations on the books, and having the technology know-how, I am your go-to person.</b>
+          <b>Real world impact on the financial industry, with your valuations on the books, and having the technology know-how, &nbsp;
+            <u>I am your go-to person</u>
+            , in the world of finance + technology.
+            </b>
           </Container>
         </ SectionFade>
       </div>

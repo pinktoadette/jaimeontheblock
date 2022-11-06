@@ -80,7 +80,7 @@ const Story: FC = () => {
                 <h3>Crypto Investment</h3>
                 <p>
                     After the 2017 <JToolTip text={"cryptocurrency"} /> crash, I made my first cryptocurrency investment.
-                    
+                    But my exposure to blockchain started in 2015, scroll to see below.
                 </p><hr />
                 <Alert variant="success">
                 Investment 101: Buy low, sell high. 
