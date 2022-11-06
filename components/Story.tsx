@@ -164,7 +164,7 @@ const Story: FC = () => {
                 <h3 >Chartered Financial Analyst</h3>
                 <h4>Completed CFA LevelII</h4>
                 <p>
-                    One of the world's most recognized and competitive financial exams.
+                    One of the {"world's"} most recognized and competitive financial exams.
                 </p>
             </VerticalTimelineElement>
 
