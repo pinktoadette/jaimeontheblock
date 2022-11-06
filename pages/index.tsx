@@ -27,7 +27,7 @@ export default function Home() {
           <Row >
             <Col md={{ span: 4, offset: 2 }}>
                 <h2 className="hello-tag">
-                  Hello, i'm 
+                  {"Hello, i'm"} 
                 </h2>
                 <h1>Jaime Lynn</h1>
               <span className="text-muted">Pronounce Jay-mee</span>
