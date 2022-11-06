@@ -1,8 +1,4 @@
-import Button from 'react-bootstrap/Button'
 import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
-import { motion } from 'framer-motion'
 import Jaime from '@components/Jaime'
 import SectionFade from '@components/utilities/SectionFade'
 
@@ -26,7 +22,7 @@ export default function DeFi() {
                     <Container>
                         <b>Not many people have real-world finance and technology skills.</b>
                         < br />
-                        I can help you with designing the technology infrastructure that is needed in 
+                        I can help you with designing the technology infrastructure that is needed in &nbsp;
                         {"today's"} world of ever-changning technology and the integration into traditional financial space.
                         <br />
                         <SectionFade>
