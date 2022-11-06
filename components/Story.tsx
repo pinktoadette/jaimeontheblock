@@ -154,7 +154,7 @@ const Story: FC = () => {
                 <h4>New York, NY</h4>
                 <p>
                     Interactive Data, now known as Intercontiental Exchange (ICE).
-                    I discussed with clients are pricing methodologies, whether it be 
+                    I discussed with institutional clients pricing challenges and methodologies, whether it be 
                     <JToolTip text={"MBS"} />, <JToolTip text={"ABS"} />, or <JToolTip text={"ADR"} />.
                 </p><hr />
                 <Alert variant="success">
