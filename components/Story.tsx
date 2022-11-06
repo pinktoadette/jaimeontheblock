@@ -53,8 +53,8 @@ const Story: FC = () => {
                         <Button variant="link" onClick={openInNewTab}> BNY - The Rise of Tokenization</Button>
                         </small></small>< hr />
                 <Alert variant="success">
-                <b>DeFi is the intersection of finance and technology.</b> I have both professional experiences, independent.
-                It is now the time to combine the both, and move forward with the technology + finance. 
+                <b>DeFi is the intersection of finance and technology.</b> I have both professional experiences, independently.
+                We are now at the era where the two meet that requires both technology + finance know-how.
                 </Alert>
                 </div>
             </VerticalTimelineElement>
@@ -182,7 +182,7 @@ const Story: FC = () => {
                 <h3 >Chartered Financial Analyst</h3>
                 <h4>Completed CFA LevelII</h4>
                 <p>
-                    The {"world's"} most recognized and competitive financial credentials.
+                    The {"world's"} most recognized and competitive financial credential.
                 </p>
             </VerticalTimelineElement>
 
