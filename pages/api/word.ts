@@ -5,7 +5,7 @@ import prisma from '../../prisma/connection';
 type Define = {
   id: string,
   text: string,
-  defintion: string,
+  definition: string,
   createdAt: string,
   updatedAt: string
 }
