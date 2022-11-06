@@ -14,10 +14,12 @@ export default async function handler(
     await prisma.$connect();
     if (method === "GET") {
         const { text } = req.query;
-        
-        const result = await prisma.dictionary.findFirst({where: {
-            text
-          },});
+        let result;
+        if (text) {
+          result = await prisma.dictionary.findFirst({where: {
+              text: (text as string).toLowerCase()
+            },});
+        }
         res.send(result);
     } else if (method === "POST") {
         const { text, definition } = req.body;
