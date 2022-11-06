@@ -34,6 +34,10 @@ export default function DeFi() {
                             such attack as a financial institution? How can you proceed further with tradtional regulations in place?
                             < br /> I have the solution.
                         </p>
+                        <p>
+                            <b>Am I an engineer or finance gal? </b>
+                            I consider both. 
+                        </p>
                     </Container>
                 </SectionFade>
             </div>
