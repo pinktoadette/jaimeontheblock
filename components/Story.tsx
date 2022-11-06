@@ -41,7 +41,7 @@ const Story: FC = () => {
                             Tokenize <JToolTip text={"alternative assets"} /> and bring in more liquidity.
                         </li>
                         <li>
-                            Gamify client platform, and create an enclosed network for <JToolTip text={"accredited investors"} />, like AMEX Centurion.
+                            Gamify client experience, and create an enclosed network for <JToolTip text={"accredited investors"} />, like AMEX Centurion.
                         </li>
                     </ul>
 
@@ -53,7 +53,8 @@ const Story: FC = () => {
                         <Button variant="link" onClick={openInNewTab}> BNY - The Rise of Tokenization</Button>
                         </small></small>< hr />
                 <Alert variant="success">
-                <b>DeFi is the intersection of finance and technology.</b> I have both professional experiences. 
+                <b>DeFi is the intersection of finance and technology.</b> I have both professional experiences, independent.
+                It is now the time to combine the both, and move forward with the technology + finance. 
                 </Alert>
                 </div>
             </VerticalTimelineElement>
@@ -181,7 +182,7 @@ const Story: FC = () => {
                 <h3 >Chartered Financial Analyst</h3>
                 <h4>Completed CFA LevelII</h4>
                 <p>
-                    The {"world's"} most recognized and competitive financial exams.
+                    The {"world's"} most recognized and competitive financial certification.
                 </p>
             </VerticalTimelineElement>
 
