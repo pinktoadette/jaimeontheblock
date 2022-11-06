@@ -9,6 +9,7 @@ import Button from 'react-bootstrap/Button'
 import ParticlesCard from '@components/utilities/Particles'
 import JToolTip from '@components/utilities/Tooltip'
 import Card from 'react-bootstrap/Card'
+import Alert from 'react-bootstrap/Alert';
 
 export default function Home() {
 
@@ -33,7 +34,7 @@ export default function Home() {
               <h2 className="spacing-100">
                 Professional experiences in Blockchain + Finance.
               </h2>
-              <Button variant="warning">Availble for Hire</Button>
+              <Button variant="warning">Available for Hire</Button>
             </Col>
             <Col>
               <div className="rounded">
@@ -64,14 +65,17 @@ export default function Home() {
                   <h3 >
                     Curiosity and Drive.
                   </h3>
-                  I have <u>self-taught</u> in many areas and always curios how things work. 
+                  <u>Self-taught</u> in many areas and always curious how things work. 
                   <br/>
-                  <br/>Being able to acquire different knowledge,
-                  it shaped myself to be <u>more creative</u> in <b>solving
-                    problems</b> and having the ability to connect the dots.
+                  <br/>Being able to acquire different knowledge shaped myself to be <u>more creative</u> in <b>solving
+                    problems</b> and having the ability to see the big picture and connect the dots.
+
+                    
                 </Card.Body>
                 <Card.Footer>
-                  Innovation comes from outside of the box.
+                  <Alert variant="success">
+                <b> Innovation comes from outside of the box, not a specific specialty</b>
+                </Alert>
                 </Card.Footer>
                   </Card>
               </Col>
@@ -87,7 +91,7 @@ export default function Home() {
                 <Card.Body>
                   <h3>Finance <i className="fa-solid fa-arrow-right"></i> Engineering <i className="fa-solid fa-arrow-right"></i> Blockchain. </h3>
                   I started off my career in finance and ventured into the engineering space.
-                  In 2019, I learned of <JToolTip text={"decentralized finance"} />, I was absolutely excited how DeFi can change
+                  In 2019, I learned of <JToolTip text={"decentralized finance"} />, I was absolutely excited how <JToolTip text={"DeFi"} /> can change
                   how our traditional exchange works.
                 </Card.Body>
                 </Card>

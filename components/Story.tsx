@@ -5,13 +5,19 @@ import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeli
 import 'react-vertical-timeline-component/style.min.css';
 import JToolTip from './utilities/Tooltip';
 import Alert from 'react-bootstrap/Alert';
+import Button from 'react-bootstrap/Button';
 
 const Story: FC = () => {
+   
+    const openInNewTab = () => {
+        const newWindow = window.open("https://www.bnymellon.com/us/en/insights/all-insights/the-rise-of-tokenization.html", '_blank', 'noopener,noreferrer')
+        if (newWindow) newWindow.opener = null
+    }
 
     return (
         <div>
         <Container>
-                <h3>A Story - Not Just A Resume</h3>
+                <h3>A Story To Tell - Not Just A Resume</h3>
             </Container>
         <VerticalTimeline>
             <VerticalTimelineElement
@@ -32,10 +38,10 @@ const Story: FC = () => {
                             for online media and text content.
                         </li>
                         <li>
-                            Tokenized <JToolTip text={"alternative assets"} /> and designed infrastrucutre, taking into security concerns
+                            Tokenize <JToolTip text={"alternative assets"} /> and bring in more liquidity.
                         </li>
                         <li>
-                            Gamified client platform, and created an enclosed network for <JToolTip text={"accredited investors"} />.
+                            Gamify client platform, and create an enclosed network for <JToolTip text={"accredited investors"} />, like AMEX Centurion.
                         </li>
                     </ul>
 
@@ -43,10 +49,11 @@ const Story: FC = () => {
                     <JToolTip text={"Tokenization"} /> is beneficial for financial institutions in many ways due to increase of <JToolTip text={"liquidity"} />. It can reduce settlement time, 
                     reconciliation errors from middle and back office, beneficiary request, managing cap table. 
                     <p />
-                    <small><sup>1</sup>https://www.bnymellon.com/us/en/insights/all-insights/the-rise-of-tokenization.html</small>< hr />
+                    <small><sup>1</sup><small >
+                        <Button variant="link" onClick={openInNewTab}> BNY - The Rise of Tokenization</Button>
+                        </small></small>< hr />
                 <Alert variant="success">
                 <b>DeFi is the intersection of finance and technology.</b> I have both professional experiences. 
-                I enjoy solving the big picture solutions and build/provide the solutions.
                 </Alert>
                 </div>
             </VerticalTimelineElement>
@@ -63,7 +70,7 @@ const Story: FC = () => {
                     
                 </p>< hr />
                 <Alert variant="success">
-                Having the experiences as an analyst and trader, I know what is needed in the system.
+                Having the experiences as an analyst and trader, I know what is required in the system.
                 </Alert>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -89,21 +96,28 @@ const Story: FC = () => {
                 <h3 >Quantitative Analyst + Trader</h3>
                 <h4>New York, NY</h4>
                 <p>
-                    Due to my past experiences in building complex financial models, (see below),
-                    my primary function was to extract, translate dataset and perform analysis.
-                    Analysis includes <JToolTip text={"regression analysis"} />, <JToolTip text={"clustering"} />, <JToolTip text={"NLP"} />, and custom models.
+                    My past experiences in building complex financial models, (see below),
+                    led me to understand how modern day quantitative analysis works.
+                    Analysis includes <JToolTip text={"regression analysis"} />, 
+                    <JToolTip text={"clustering"} />, <JToolTip text={"NLP"} />, and custom statistical models.
                 </p>
+                <Alert variant="success">
+                 Prior to financial crisis, machine learning was not heard of. Investment analyst
+                 used Excel as the sole analysis tool. However, my past experience involve 
+                 working with external quantitative researchers at large institutional banks and discussing methodologies. 
+                 Regression analysis is a subset of machine learning and a subject I am not unfamiliar of.
+                </Alert>
             </VerticalTimelineElement>
             <VerticalTimelineElement
                 date="2015 - present"
                 iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}                
             >
                 <h3>Blockchain Involvement</h3>
-                <p>I was first exposed to blockchain in 2015. I was a consultant for
-                    other companies by attending conferences and organizing blockchain educational materials.
+                <p>I was first exposed to blockchain in 2015 as a consultant for
+                    other companies. I attended conferences and organized blockchain educational materials.
                 </p><hr />
                 <Alert variant="success">
-                <b>Am I a crypto native?</b> Perhaps.
+                <b>Am I a crypto native?</b> Yes.
                 </Alert>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -116,11 +130,11 @@ const Story: FC = () => {
                 <h4>New York, NY</h4>
                 <p>
                     <b>Know what an <JToolTip text={"Auction Rate Security"} /> is? </b>
-                    Many {"don't"}. SEC and FINRA sure do.
+                    Many {"don't"}. SEC and FINRA sure do since it was one of the biggest collapse of our time.
                     <br /><br />
-                    In 2008, auction rate securities (ARS) had a tremendous downfall.
+                    In 2008, auction rate securities (ARS) had a tremendous downfall. The ARS market was valued at $200billion.
                     I built complex financial models using regresson analysis and optimizations, specifically cubic spline modeling.
-                    I then automated the entire system, because we all know Excel is too slow!
+                    I then automated the entire valuation process because we all know Excel is too slow!
                 </p><hr />
                 <Alert variant="success">
                     If your company has held ARS and received pricing from Pluris or Interactive Data, there is a good chance that
@@ -138,10 +152,12 @@ const Story: FC = () => {
                 <h4>New York, NY</h4>
                 <p>
                     Interactive Data, now known as Intercontiental Exchange (ICE).
-                    I discuss with clients are pricing methodologies, whether it be <JToolTip text={"MBS"} />, <JToolTip text={"ABS"} />, or <JToolTip text={"ADR"} />.
+                    I discuss with clients are pricing methodologies, whether it be 
+                    <JToolTip text={"MBS"} />, <JToolTip text={"ABS"} />, or <JToolTip text={"ADR"} />.
                 </p><hr />
                 <Alert variant="success">
-                <JToolTip text={"Waterfall"} />, prepayment speed (<JToolTip text={"PSA"} />), 
+                <JToolTip text={"Waterfall"} />, prepayment speed (<JToolTip text={"PSA"} />) are some of the price challenges
+                clients would request.
                 </Alert>
             </VerticalTimelineElement>
             <VerticalTimelineElement
