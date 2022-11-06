@@ -1,15 +1,28 @@
-import { FC, RefAttributes } from 'react';
-import Button from 'react-bootstrap/Button';
+import { FC, useState, useEffect } from 'react';
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Tooltip, { TooltipProps } from 'react-bootstrap/Tooltip';
+import { APIService } from 'service/api';
 
-const JToolTip: FC = () => {
+const JToolTip = (props: any) =>  {
+  const [define, setDefine] = useState(false);
 
   const renderTooltip = (props: TooltipProps) => (
     <Tooltip id="button-tooltip" {...props}>
-      Simple tooltip
+       { define }
     </Tooltip>
   );
+
+  useEffect(()=>{
+    if (!define) {
+      fetch(`api/word?text=${props.text}`)
+      .then(data => data.json())
+      .then(data => {
+        const {definition} = data;
+          setDefine(definition);
+      });
+    }
+  }, [define])
+
 
   return (
     <OverlayTrigger
@@ -17,7 +30,7 @@ const JToolTip: FC = () => {
       delay={{ show: 250, hide: 400 }}
       overlay={renderTooltip}
     >
-      <Button variant="success">Hover me to see</Button>
+      <span className="primary tip-tag"><u>{props.text}</u></span>
     </OverlayTrigger>
   );
 }

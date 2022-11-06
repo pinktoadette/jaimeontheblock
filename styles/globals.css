@@ -1,4 +1,4 @@
-
+@import '@assets/fontawesome/css/all.min.css';
 
 html,
 body {
@@ -52,6 +52,20 @@ section {
   align-items: center;
   background: #fcd86a;
 }
+.definition-tag{
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  background: #000;
+  color: #ffff;
+}
+.tip-tag {
+  background-color: #fcd86a;
+  color: #000;
+  padding: 0 5px;
+}
 
 
 /** headshot **/
@@ -68,6 +82,9 @@ section {
   width: 500px;
   filter: drop-shadow(5px 10px 4px #c5a84f);
 }
+.spacing-100 {
+  margin-top: 100px;
+}
 
 
 
@@ -82,5 +99,10 @@ section {
     width: 80%;
     filter: drop-shadow(5px 10px 4px #c5a84f);
   }
+
+  .spacing-100 {
+    margin-top: unset;
+  }
+  
   
 }

@@ -1,15 +1,13 @@
-import { motion, useTransform, useScroll, useSpring } from 'framer-motion'
+import { motion } from 'framer-motion'
 import Head from 'next/head'
-import Image from 'next/image'
-import { useRef, useState } from 'react'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Container from 'react-bootstrap/Container'
-import Skills from '@components/Skills'
 import Story from '@components/Story'
 import SectionFade from '@components/utilities/SectionFade'
 import Button from 'react-bootstrap/Button'
 import ParticlesCard from '@components/utilities/Particles'
+import JToolTip from '@components/utilities/Tooltip'
 
 export default function Home() {
 
@@ -31,7 +29,7 @@ export default function Home() {
                 </h2>
                 <h1>Jaime Lynn</h1>
               <span className="text-muted">Pronounce Jay-mee</span>
-              <h2 style={{marginTop: "100px"}} >
+              <h2  className="spacing-100">
                Professional experiences in Blockchain + Finance.
                </h2>
                <Button  variant="warning">Availble for Hire</Button>
@@ -51,13 +49,15 @@ export default function Home() {
             </div>
             </Col>
           </Row>
-        </Container>        
+        </Container>   
+        <div className="definition-tag">New to Finance or Blockchain? 
+        <br />Hover over <JToolTip text={"highlight"}/>to see definitions.</div>     
       </div>
       <div>
         <SectionFade color="primary">
             <Container>
-              <Row>
-                <Col>
+              <Row >
+                <Col lg={6}>
                 <h3 >
                 Curios and Drive.
                 </h3>
@@ -65,8 +65,6 @@ export default function Home() {
                   it shaped myself to be <u>more creative</u> in <b>solving
                   problems</b> and having the ability to connect the dots.
                 </Col>
-                <Col>
-              </Col>
               </Row>            
               </Container>
         </SectionFade>
@@ -75,9 +73,10 @@ export default function Home() {
           <Container>
             <Row>
               <Col md={{  offset: 6 }}>
-                  <h3>Finance -{'>'} Engineering -{'>'} Blockchain. </h3>
+             
+                  <h3>Finance <i className="fa-solid fa-arrow-right"></i> Engineering <i className="fa-solid fa-arrow-right"></i> Blockchain. </h3>
                 I started off my career in finance and ventured into the engineering space. 
-                In 2019, I learned of <u>decentralized finance</u>, I was absolutely excited how DeFi can change 
+                In 2019, I learned of <JToolTip text={"decentralized finance"}/>, I was absolutely excited how DeFi can change 
                 how our traditional exchange works.
               </Col>            
             </Row>              

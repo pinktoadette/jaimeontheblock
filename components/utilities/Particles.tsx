@@ -22,7 +22,7 @@ const ParticlesCard: FC = () => {
                 mode: "push",
               },
               onHover: {
-                enable: true,
+                enable: false,
                 mode: "repulse",
               },
               resize: true,
@@ -45,7 +45,7 @@ const ParticlesCard: FC = () => {
               color: "#c5a84f",
               distance: 150,
               enable: true,
-              opacity: 0.5,
+              opacity: 0.3,
               width: 1,
             },
             collisions: {
@@ -69,7 +69,7 @@ const ParticlesCard: FC = () => {
               value: 80,
             },
             opacity: {
-              value: 0.5,
+              value: 0.3,
             },
             shape: {
               type: "circle",
