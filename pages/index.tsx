@@ -75,7 +75,7 @@ export default function Home() {
           <Container>
             <Row>
               <Col md={{  offset: 6 }}>
-                  <h3>Finance ➜ Engineering ➜ Blockchain. </h3>
+                  <h3>Finance -> Engineering -> Blockchain. </h3>
                 I started off my career in finance and ventured into the engineering space. 
                 In 2019, I learned of <u>decentralized finance</u>, I was absolutely excited how DeFi can change 
                 how our traditional exchange works.
