@@ -1,11 +1,19 @@
 import Container from 'react-bootstrap/Container'
 import Jaime from '@components/Jaime'
 import SectionFade from '@components/utilities/SectionFade'
+import Head from 'next/head'
 
 export default function DeFi() {
 
     return(
         <>
+        <Head>
+        <title>Jaime On the Block</title>
+        <meta name="description" content="Jaime on the block" />
+        <meta name="theme-color" content="#fcd86a"></meta>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+
             <Jaime />
             <div>
                 <SectionFade color="primary">

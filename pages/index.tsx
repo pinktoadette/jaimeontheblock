@@ -1,4 +1,3 @@
-import { motion } from 'framer-motion'
 import Head from 'next/head'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
@@ -18,7 +17,8 @@ export default function Home() {
     <>
       <Head>
         <title>Jaime On the Block</title>
-        <meta name="description" content="Hire Jaime" />
+        <meta name="description" content="Jaime on the block" />
+        <meta name="theme-color" content="#fcd86a"></meta>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <ParticlesCard />
