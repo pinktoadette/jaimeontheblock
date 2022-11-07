@@ -4,12 +4,10 @@ import Col from 'react-bootstrap/Col'
 import Container from 'react-bootstrap/Container'
 import Story from '@components/Story'
 import SectionFade from '@components/utilities/SectionFade'
-import ParticlesCard from '@components/utilities/Particles'
 import JToolTip from '@components/utilities/Tooltip'
 import Card from 'react-bootstrap/Card'
 import Alert from 'react-bootstrap/Alert';
 import Link from 'next/link';
-import Jaime from '@components/Jaime'
 
 export default function Home() {
 
@@ -21,8 +19,6 @@ export default function Home() {
         <meta name="theme-color" content="#fcd86a"></meta>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <ParticlesCard />
-      <Jaime />
       <div>
         <SectionFade color="primary">
           <Container>

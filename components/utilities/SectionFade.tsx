@@ -2,10 +2,10 @@
 import { FC, useRef } from "react";
 import { motion, useScroll } from "framer-motion";
 
-const SectionFade = ({ children }: any) => {
+const SectionFade = ({ children, margin }: any) => {
 
   return (
-    <section>
+    <section className={`${ margin ?? ''}`}>
       <motion.div
         initial="hidden"
         whileInView="visible"

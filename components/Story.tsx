@@ -17,7 +17,7 @@ const Story: FC = () => {
     return (
         <div>
         <Container>
-                <h3>A Story To Tell - Not A Resume Show</h3>
+                <h3>A Story To Tell, Not A Resume Show</h3>
             </Container>
         <VerticalTimeline>
             <VerticalTimelineElement
@@ -153,7 +153,7 @@ const Story: FC = () => {
                 <h3>Interactive Data </h3>
                 <h4>New York, NY</h4>
                 <p>
-                    Interactive Data, now known as Intercontiental Exchange (ICE).
+                    Interactive Data, now known as Intercontinental Exchange (ICE).
                     I discussed with institutional clients pricing challenges and methodologies, whether it be 
                     <JToolTip text={"MBS"} />, <JToolTip text={"ABS"} />, or <JToolTip text={"ADR"} />.
                 </p><hr />

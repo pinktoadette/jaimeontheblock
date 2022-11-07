@@ -1,6 +1,8 @@
 import Footer from '@components/Footer';
+import Jaime from '@components/Jaime';
 import '@styles/globals.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import ParticlesCard from '@components/utilities/Particles'
 
 import type { AppProps } from 'next/app'
 import Script from 'next/script';
@@ -22,6 +24,9 @@ export default function App({ Component, pageProps }: AppProps) {
           gtag('config', 'UA-170103870-1');
         `}
       </Script>
+    
+    <ParticlesCard />
+    <Jaime />
     <Component {...pageProps} />
     <Footer />
   </>
