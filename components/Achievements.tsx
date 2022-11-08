@@ -50,7 +50,7 @@ const AchievementList = () => {
         viewport={{ once: true, amount: 0.8 }}
           key={i}
           animate={{ opacity: 1,
-            translateX: i * widthSize > 1200? 50 : 0,
+            translateX: i * (widthSize > 1100 ? 50 : 0),
             translateY: 0 }}
           transition={{ duration: 0.3, delay: i }}
         > 

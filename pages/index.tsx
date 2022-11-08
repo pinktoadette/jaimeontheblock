@@ -10,6 +10,7 @@ import Alert from 'react-bootstrap/Alert';
 import Link from 'next/link';
 import AchievementList from '@components/Achievements'
 import LeftBehind from '@components/LeftBehind'
+import Timeline from '@components/utilities/Timeline'
 
 export default function Home() {
 

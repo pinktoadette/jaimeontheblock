@@ -92,10 +92,17 @@ section.unset{
   width: 500px;
   filter: drop-shadow(9px 3px 3px #c5a84f);
 }
+.card.story-card{
+  border: unset;
+  filter: drop-shadow(10px 10px 4px #ddd);
+  width: 100%;
+}
 .spacing-100 {
   margin-top: 100px;
 }
-
+.full-width {
+  width: 100%;
+}
 /** Footer */
 .footer{
   background: black;
@@ -107,6 +114,27 @@ section.unset{
 .alist.card{
   border-left: 20px solid #fcd86a;
   margin-bottom: 20px;
+}
+.icon {
+  border-radius: 30px;
+  height: 30px;
+  width: 30px;
+  justify-content: center;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  color: #fff;
+  margin: 10px;
+  filter: drop-shadow(5px 5px 3px #ddd)
+}
+.icon.icon-work{
+  background-color: #fcd86a;
+}
+.icon.icon-personal{
+  background-color: #6afcd8;
+}
+.icon.icon-edu{
+  background-color: #fc6a8e;
 }
 
 @media only screen and (max-width: 600px) {
