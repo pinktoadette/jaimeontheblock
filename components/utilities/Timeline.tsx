@@ -8,7 +8,7 @@ import Col from 'react-bootstrap/Col';
 
 const cardVariants: Variants = {
     offscreen: {
-      y: 400
+      y: 250
     },
     onscreen: {
       y: 0,
@@ -28,7 +28,7 @@ const TimelineItem = ({ icon, date, iconClass, children }: any) => {
       <motion.div
         initial="offscreen"
         whileInView="onscreen"
-        viewport={{ once: true, amount: 0.8 }}
+        viewport={{ once: true, amount: 0.2 }}
         variants={{
           visible: { opacity: 1, scale: 1 },
           hidden: { opacity: 0, scale: 0 }
