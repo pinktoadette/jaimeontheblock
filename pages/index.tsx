@@ -8,6 +8,7 @@ import JToolTip from '@components/utilities/Tooltip'
 import Card from 'react-bootstrap/Card'
 import Alert from 'react-bootstrap/Alert';
 import Link from 'next/link';
+import AchievementList from '@components/Achievements'
 
 export default function Home() {
 
@@ -75,12 +76,16 @@ export default function Home() {
         </SectionFade>
       </div>
       <div>
+        
+        <AchievementList />
+      </div>
+      <div>
         <Story />
         <SectionFade >
         <Container>
           <h3>Now you have scrolled down here</h3>
           Let me show you why a knowledge of finance and engineering is needed. &nbsp;
-          <Link href="/learn/tech_finance">Tell me more</Link>
+          <Link href="/tech_finance">Tell me more</Link>
           </Container>
         </SectionFade>
       </div>

@@ -23,7 +23,7 @@ const Footer: FC = () => {
                     </h3>
                     <ul>
                         <li>
-                            <Link href="/learn/tech_finance">Why tech and finance is needed</Link>
+                            <Link href="/tech_finance">Why tech and finance is needed</Link>
                         </li>
                         <li>
                             <Link href="/">Home</Link>

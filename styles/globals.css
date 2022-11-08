@@ -103,6 +103,12 @@ section.unset{
   padding: 50px 20px;
 }
 
+/** AchieveList  */
+.alist.card{
+  border-left: 20px solid #fcd86a;
+  margin-bottom: 20px;
+}
+
 @media only screen and (max-width: 600px) {
   .rounded{
     text-align: center;
