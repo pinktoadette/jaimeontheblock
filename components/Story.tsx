@@ -1,8 +1,5 @@
 import { FC } from 'react'
 import Container from 'react-bootstrap/Container';
- // @ts-ignore
-import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
-import 'react-vertical-timeline-component/style.min.css';
 import JToolTip from './utilities/Tooltip';
 import Alert from 'react-bootstrap/Alert';
 import Button from 'react-bootstrap/Button';
