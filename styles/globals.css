@@ -90,7 +90,7 @@ section.unset{
   border-radius: 50%;
   border: 10px solid #000;
   width: 500px;
-  filter: drop-shadow(5px 10px 4px #c5a84f);
+  filter: drop-shadow(9px 3px 3px #c5a84f);
 }
 .spacing-100 {
   margin-top: 100px;

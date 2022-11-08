@@ -9,6 +9,7 @@ import Card from 'react-bootstrap/Card'
 import Alert from 'react-bootstrap/Alert';
 import Link from 'next/link';
 import AchievementList from '@components/Achievements'
+import LeftBehind from '@components/LeftBehind'
 
 export default function Home() {
 
@@ -20,6 +21,7 @@ export default function Home() {
         <meta name="theme-color" content="#fcd86a"></meta>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <LeftBehind />
       <div>
         <SectionFade color="primary">
           <Container>
@@ -76,7 +78,6 @@ export default function Home() {
         </SectionFade>
       </div>
       <div>
-        
         <AchievementList />
       </div>
       <div>

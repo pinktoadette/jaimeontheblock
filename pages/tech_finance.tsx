@@ -2,6 +2,7 @@ import Container from 'react-bootstrap/Container'
 import SectionFade from '@components/utilities/SectionFade'
 import Head from 'next/head'
 import Skills from '@components/Skills'
+import LeftBehind from '@components/LeftBehind'
 
 export default function DeFi() {
 
@@ -13,18 +14,7 @@ export default function DeFi() {
                 <meta name="theme-color" content="#fcd86a"></meta>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <div className="primary">
-                <SectionFade margin="unset">
-                    <Container>
-                        <h1>
-                            We are now at the era where both <b><u>technology + finance know-how</u></b> is required
-                            to move forward within <b><u>decentralized finance</u></b> space.
-
-                        </h1>
-                        {"Don't be left behind in today's ever-chaning technology"}
-                    </Container>
-                </ SectionFade>
-            </div>
+            <LeftBehind />
             <div>
                 <SectionFade>
                     <Container>
