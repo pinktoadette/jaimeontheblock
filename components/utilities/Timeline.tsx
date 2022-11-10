@@ -1,10 +1,6 @@
 
-import { FC, useRef } from "react";
-import { motion, useScroll, Variants } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import Card from "react-bootstrap/Card";
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 
 const cardVariants: Variants = {
     offscreen: {
