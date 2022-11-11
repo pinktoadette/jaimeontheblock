@@ -60,16 +60,7 @@ const Story: FC = () => {
                 Having the experiences as an analyst and trader, I know what is required in the system.
                 </Alert>
             </TimelineItem>
-            <TimelineItem icon="fa-solid fa-hand" iconClass="icon-personal" date="2018 - present">
-                <h3>Crypto Investment</h3>
-                <p>
-                    After the 2017 <JToolTip text={"cryptocurrency"} /> crash, I made my first cryptocurrency investment.
-                    But my exposure to blockchain started in 2015, scroll to see below.
-                </p><hr />
-                <Alert variant="success">
-                Investment 101: Buy low, sell high. 
-                </Alert>
-            </TimelineItem>
+
             <TimelineItem icon="fa-solid fa-briefcase" iconClass="icon-work" date="2015 - 2018">
             <h3 >Quantitative Analyst + Trader</h3>
                 <h4>New York, NY</h4>
@@ -93,7 +84,7 @@ const Story: FC = () => {
                     other companies. I attended conferences and organized blockchain educational materials.
                 </p><hr />
                 <Alert variant="success">
-                <b>Am I a crypto native?</b> Yes.
+                <b>Am I a crypto native?</b> Perhaps.
                 </Alert>
             </TimelineItem>
             <TimelineItem icon="fa-solid fa-briefcase" iconClass="icon-work" date="2008 - 2011">
